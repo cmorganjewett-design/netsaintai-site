@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>NetSaintAI – Guardians of Intelligent Systems</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <meta name="description" content="NetSaintAI is the guardian of ethical and effective AI adoption. We provide oversight, strategy, and protective frameworks so your intelligent systems are strong, safe, and aligned." />
+  <!-- Tailwind via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .bg-guardian-gradient {
+      background: radial-gradient(circle at 20% 20%, rgba(255,255,255,0.12), transparent 35%),
+                  radial-gradient(circle at 80% 30%, rgba(255,255,255,0.08), transparent 40%),
+                  linear-gradient(135deg, #0B3D91, #0B3D91 50%, #C1121F);
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-slate-50 text-slate-900">
+  <!-- Header -->
+  <header class="sticky top-0 z-40 border-b border-slate-200/70 bg-white/80 backdrop-blur">
+    <div class="mx-auto flex w-full max-w-6xl items-center justify-between px-6 py-3">
+      <div class="flex items-center gap-2">
+        <div class="flex h-9 w-9 items-center justify-center rounded-xl bg-[#0B3D91] text-white shadow">
+          <img src="assets/netsaintai-logo.png" alt="NetSaintAI logo" class="h-9 w-9 object-contain rounded-xl" />
+        </div>
+        <div class="leading-tight">
+          <div class="text-sm font-bold tracking-wide">NetSaintAI</div>
+          <div class="text-[10px] uppercase tracking-wider text-slate-500">Guardians of Intelligent Systems</div>
+        </div>
+      </div>
+      <nav class="hidden gap-6 text-sm md:flex">
+        <a href="#services" class="hover:text-[#0B3D91]">Services</a>
+        <a href="#why" class="hover:text-[#0B3D91]">Why Us</a>
+        <a href="#blueprint" class="hover:text-[#0B3D91]">Blueprint</a>
+        <a href="#pricing" class="hover:text-[#0B3D91]">Pricing</a>
+        <a href="#contact" class="hover:text-[#0B3D91]">Contact</a>
+      </nav>
+      <div class="hidden md:block">
+        <a href="#contact" class="inline-flex items-center rounded-md bg-[#C1121F] px-4 py-2 text-sm font-semibold text-white shadow hover:bg-[#9a0e19]">Book Consultation</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="relative overflow-hidden bg-guardian-gradient">
+    <div class="mx-auto grid w-full max-w-6xl items-center gap-10 px-6 py-12 md:grid-cols-2 md:py-16">
+      <div class="text-white">
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/10 px-3 py-1 text-white backdrop-blur">
+          <span class="text-xs font-medium tracking-wide uppercase">Watchtower Security • Ethical AI</span>
+        </div>
+        <h1 class="mt-4 text-3xl font-extrabold md:text-5xl">
+          We protect how your <span class="underline decoration-white/40 underline-offset-8">AI</span> works
+        </h1>
+        <p class="mt-4 max-w-xl text-white/90 md:text-lg">
+          NetSaintAI is the guardian of ethical and effective AI adoption. We provide oversight, strategy, and protective frameworks so your intelligent systems are strong, safe, and aligned.
+        </p>
+        <div class="mt-6 flex flex-wrap items-center gap-3">
+          <a href="#contact" class="inline-flex items-center rounded-md bg-white px-5 py-2 text-sm font-semibold text-[#0B3D91] shadow hover:bg-white/90">
+            Start Assessment
+          </a>
+          <a href="#pricing" class="inline-flex items-center rounded-md border border-white/40 bg-transparent px-5 py-2 text-sm font-semibold text-white hover:bg-white/10">
+            View Pricing
+          </a>
+        </div>
+        <div class="mt-6 flex flex-wrap items-center gap-4 text-xs text-white/80">
+          <div class="flex items-center gap-2">Human-in-the-loop</div>
+          <div class="flex items-center gap-2">Compliance-first</div>
+          <div class="flex items-center gap-2">Vendor-agnostic</div>
+        </div>
+      </div>
+      <div class="rounded-2xl border border-white/20 bg-white/10 p-6 text-white backdrop-blur">
+        <h3 class="text-lg font-semibold">Guardian Oversight Dashboard</h3>
+        <p class="mt-1 text-sm text-white/80">Live compliance posture, risk heatmaps, and agent activity monitoring.</p>
+        <div class="mt-4 grid grid-cols-2 gap-4 text-sm">
+          <div class="rounded-xl border border-white/20 p-4">
+            <div class="text-xs uppercase tracking-wider text-white/70">Compliance Score</div>
+            <div class="mt-2 text-3xl font-extrabold">92</div>
+            <div class="mt-1 text-xs text-white/70">▲ +6 this quarter</div>
+          </div>
+          <div class="rounded-xl border border-white/20 p-4">
+            <div class="text-xs uppercase tracking-wider text-white/70">Incidents</div>
+            <div class="mt-2 text-3xl font-extrabold">0</div>
+            <div class="mt-1 text-xs text-white/70">Last 90 days</div>
+          </div>
+          <div class="col-span-2 rounded-xl border border-white/20 p-4">
+            <div class="text-xs uppercase tracking-wider text-white/70">Active Agents</div>
+            <div class="mt-2 flex flex-wrap items-center gap-2 text-xs">
+              <span class="rounded-md bg-white/10 px-2 py-1">Procurement‑Bot</span>
+              <span class="rounded-md bg-white/10 px-2 py-1">Claims‑Summarizer</span>
+              <span class="rounded-md bg-white/10 px-2 py-1">Dev‑Copilot</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="w-full py-16 md:py-20">
+    <div class="mx-auto w-full max-w-6xl px-6">
+      <div class="mb-8 text-center">
+        <span class="inline-flex rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">Service Tiers</span>
+        <h2 class="mt-3 text-2xl font-extrabold md:text-3xl">From first audit to ongoing guardianship</h2>
+        <p class="mx-auto mt-2 max-w-2xl text-sm text-slate-600">
+          Four modular tiers designed to land quickly, build frameworks, and protect continuously.
+        </p>
+      </div>
+      <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+        <div class="h-full rounded-2xl bg-white/90 p-5 shadow-sm">
+          <h3 class="text-lg font-semibold">Assessment &amp; Strategy</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Governance audit, gap analysis, and an executive plan to align AI with your business and values.
+          </p>
+        </div>
+        <div class="h-full rounded-2xl bg-white/90 p-5 shadow-sm">
+          <h3 class="text-lg font-semibold">Framework &amp; Implementation</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Custom policies, red‑teaming, bias testing, and rollout of guardrails across teams.
+          </p>
+        </div>
+        <div class="h-full rounded-2xl bg-white/90 p-5 shadow-sm">
+          <h3 class="text-lg font-semibold">Ongoing Protection</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Monitoring, alerts, quarterly reviews, and rapid advisory during incidents.
+          </p>
+        </div>
+        <div class="h-full rounded-2xl bg-white/90 p-5 shadow-sm">
+          <h3 class="text-lg font-semibold">Training &amp; Stewardship</h3>
+          <p class="mt-2 text-sm text-slate-600">
+            Executive workshops and AI Steward certification to build internal capability.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Us -->
+  <section id="why" class="w-full bg-white py-16 md:py-20">
+    <div class="mx-auto grid w-full max-w-6xl items-start gap-8 px-6 md:grid-cols-2">
+      <div>
+        <h2 class="text-2xl font-extrabold md:text-3xl">Why NetSaintAI</h2>
+        <p class="mt-3 text-slate-600">
+          We combine strategic clarity with protective strength. Unlike build‑only agencies, we are vendor‑agnostic guardians who ensure your AI remains safe, aligned, and compliant.
+        </p>
+        <ul class="mt-6 space-y-3 text-sm text-slate-700">
+          <li>• Compliance‑first, human‑in‑the‑loop design</li>
+          <li>• Ethical oversight + measurable ROI alignment</li>
+          <li>• Playbooks tailored to Finance, Healthcare, Gov Contractors</li>
+        </ul>
+      </div>
+      <div class="grid gap-4 md:grid-cols-2">
+        <div class="rounded-2xl bg-slate-50 p-4 shadow-sm">
+          <h3 class="font-semibold">Vendor‑Agnostic</h3>
+          <p class="mt-1 text-sm text-slate-600">
+            We evaluate and govern across OpenAI, Anthropic, open‑source, and internal models.
+          </p>
+        </div>
+        <div class="rounded-2xl bg-slate-50 p-4 shadow-sm">
+          <h3 class="font-semibold">Outcome‑Driven</h3>
+          <p class="mt-1 text-sm text-slate-600">
+            Every control maps to a business KPI: risk reduction, uptime, and trust.
+          </p>
+        </div>
+        <div class="rounded-2xl bg-slate-50 p-4 shadow-sm">
+          <h3 class="font-semibold">Regulation‑Ready</h3>
+          <p class="mt-1 text-sm text-slate-600">
+            Built for EU AI Act timelines and evolving US guidance.
+          </p>
+        </div>
+        <div class="rounded-2xl bg-slate-50 p-4 shadow-sm">
+          <h3 class="font-semibold">Stewardship Culture</h3>
+          <p class="mt-1 text-sm text-slate-600">
+            We train internal stewards so governance endures beyond any one vendor.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blueprint -->
+  <section id="blueprint" class="w-full bg-slate-50 py-16 md:py-20">
+    <div class="mx-auto w-full max-w-6xl px-6">
+      <div class="mb-8 text-center">
+        <span class="inline-flex rounded-full bg-[#0B3D91] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">Service Blueprint</span>
+        <h2 class="mt-3 text-2xl font-extrabold md:text-3xl">How we engage &amp; protect</h2>
+        <p class="mx-auto mt-2 max-w-2xl text-sm text-slate-600">A four‑stage flow from discovery to long‑term guardianship.</p>
+      </div>
+      <div class="grid gap-6 md:grid-cols-4 text-sm text-slate-700">
+        <div class="rounded-2xl bg-white p-4 shadow-sm">
+          <h3 class="font-bold">1. Assessment</h3>
+          <p class="mt-1">Readiness audit, risk inventory, executive briefing.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-4 shadow-sm">
+          <h3 class="font-bold">2. Framework</h3>
+          <p class="mt-1">Policies, red‑team tests, bias checks, rollout plan.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-4 shadow-sm">
+          <h3 class="font-bold">3. Protection</h3>
+          <p class="mt-1">Dashboards, alerts, quarterly reviews, incident response.</p>
+        </div>
+        <div class="rounded-2xl bg-white p-4 shadow-sm">
+          <h3 class="font-bold">4. Stewardship</h3>
+          <p class="mt-1">Executive workshops and AI Steward certification.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section id="pricing" class="w-full bg-white py-16 md:py-20">
+    <div class="mx-auto w-full max-w-6xl px-6">
+      <div class="mb-8 text-center">
+        <span class="inline-flex rounded-full bg-[#C1121F] px-3 py-1 text-xs font-semibold uppercase tracking-wide text-white">Pricing</span>
+        <h2 class="mt-3 text-2xl font-extrabold md:text-3xl">Transparent starting points</h2>
+        <p class="mx-auto mt-2 max-w-2xl text-sm text-slate-600">Anchor enterprise‑grade value; scale by complexity, systems count, and regulatory scope.</p>
+      </div>
+      <div class="grid gap-6 md:grid-cols-3 text-sm text-slate-700">
+        <div class="flex h-full flex-col rounded-2xl border border-slate-200/70 bg-white p-5 shadow-sm">
+          <div class="mb-3">
+            <h3 class="text-xl font-bold">Assessment &amp; Strategy</h3>
+            <div class="mt-1 flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold">$15k</span>
+              <span class="text-xs text-slate-500">/ project</span>
+            </div>
+          </div>
+          <ul class="mb-4 space-y-2">
+            <li>• Governance readiness audit</li>
+            <li>• Compliance gap report</li>
+            <li>• Executive strategy briefing</li>
+          </ul>
+          <a href="#contact" class="mt-auto inline-flex items-center justify-center rounded-md bg-[#0B3D91] px-4 py-2 text-sm font-semibold text-white hover:bg-[#092f72]">Get Started</a>
+        </div>
+        <div class="flex h-full flex-col rounded-2xl border border-slate-200/70 bg-white p-5 shadow-md ring-1 ring-[#C1121F]/40">
+          <div class="mb-3">
+            <div class="flex items-center justify-between">
+              <h3 class="text-xl font-bold">Framework &amp; Implementation</h3>
+              <span class="rounded-full bg-[#C1121F] px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-white">Most Popular</span>
+            </div>
+            <div class="mt-1 flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold">$50k+</span>
+              <span class="text-xs text-slate-500">/ project</span>
+            </div>
+          </div>
+          <ul class="mb-4 space-y-2">
+            <li>• Custom governance framework</li>
+            <li>• Red‑teaming &amp; bias audit</li>
+            <li>• Rollout &amp; enablement</li>
+          </ul>
+          <a href="#contact" class="mt-auto inline-flex items-center justify-center rounded-md bg-[#0B3D91] px-4 py-2 text-sm font-semibold text-white hover:bg-[#092f72]">Get Started</a>
+        </div>
+        <div class="flex h-full flex-col rounded-2xl border border-slate-200/70 bg-white p-5 shadow-sm">
+          <div class="mb-3">
+            <h3 class="text-xl font-bold">Ongoing Protection</h3>
+            <div class="mt-1 flex items-baseline gap-1">
+              <span class="text-3xl font-extrabold">$7.5k+</span>
+              <span class="text-xs text-slate-500">/ month</span>
+            </div>
+          </div>
+          <ul class="mb-4 space-y-2">
+            <li>• Monitoring dashboard &amp; alerts</li>
+            <li>• Quarterly safety reviews</li>
+            <li>• Rapid incident advisory</li>
+          </ul>
+          <a href="#contact" class="mt-auto inline-flex items-center justify-center rounded-md bg-[#0B3D91] px-4 py-2 text-sm font-semibold text-white hover:bg-[#092f72]">Get Started</a>
+        </div>
+      </div>
+      <p class="mt-6 text-center text-xs text-slate-500">
+        *Training &amp; Stewardship priced by workshop ($5k–$15k) or certification ($2.5k/employee). Enterprise rollouts $50k–$100k.
+      </p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="w-full bg-slate-900 py-16 text-white md:py-20">
+    <div class="mx-auto grid w-full max-w-6xl gap-8 px-6 md:grid-cols-2">
+      <div>
+        <div class="inline-flex items-center gap-2 rounded-full border border-white/20 bg-white/5 px-3 py-1 text-xs font-medium uppercase tracking-wide text-white/80">
+          Start here
+        </div>
+        <h2 class="mt-3 text-2xl font-extrabold md:text-3xl">Book a Guardian Consultation</h2>
+        <p class="mt-3 text-sm text-white/80">
+          Tell us about your AI systems, goals, and risk posture. We’ll propose a right‑sized path to safe, effective adoption.
+        </p>
+        <div class="mt-6 space-y-3 text-sm text-white/80">
+          <div>✉️ team@netsaint.ai</div>
+          <div>📞 (555) 012‑3456</div>
+          <div>📍 Florida, USA</div>
+        </div>
+      </div>
+      <div class="rounded-2xl bg-white p-6 text-slate-900 shadow">
+        <h3 class="text-lg font-bold">Tell us about your needs</h3>
+        <p class="mt-1 text-sm text-slate-600">We’ll reply within one business day.</p>
+        <form class="mt-4 space-y-3" action="mailto:team@netsaint.ai" method="post" enctype="text/plain">
+          <input class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm" type="text" name="name" placeholder="Full name" required />
+          <input class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm" type="email" name="email" placeholder="Work email" required />
+          <input class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm" type="text" name="company" placeholder="Company" />
+          <input class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm" type="text" name="systems" placeholder="# of AI systems in use" />
+          <textarea class="w-full rounded-md border border-slate-300 px-3 py-2 text-sm" name="message" rows="4" placeholder="What are you trying to protect or achieve?"></textarea>
+          <button type="submit" class="w-full rounded-md bg-[#0B3D91] px-4 py-2 text-sm font-semibold text-white hover:bg-[#092f72]">Request Consultation</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t bg-white">
+    <div class="mx-auto flex w-full max-w-6xl flex-col items-center justify-between gap-4 px-6 py-6 text-xs text-slate-600 md:flex-row">
+      <div class="flex items-center gap-2">
+        <span>© <span id="year"></span> NetSaintAI. All rights reserved.</span>
+      </div>
+      <div class="flex items-center gap-4">
+        <a href="#" class="hover:text-slate-900">Privacy</a>
+        <a href="#" class="hover:text-slate-900">Terms</a>
+        <a href="#" class="hover:text-slate-900">Security</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
